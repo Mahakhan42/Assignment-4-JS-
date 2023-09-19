@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 JS</title>
+</head>
+<body>
+    <h1>Assignment No 4 (JS)!</h1>
+   <h2><u>Chapter 17 - 20 (for Loops)</u></h2>
+   <script> 
+//    Q1
+document.write("<u>Question No: 1</u><br><br>");
+for(var i = 1;i<=10;i++){
+    document.writeln("Hello World! <br>");
+}
+// Q2
+document.write("<br><u>Question No: 2</u><br><br>");
+for(var i =0; i<=11; i++){
+    document.writeln("Welcome To Javascript!<br>");
+}
+// Q3
+document.write("<br><u>Question No: 3  (Done Answer in Code File)</u><br><br>");
+for (var i = 0 ;i <= 4 ;i++);
+// Q4
+document.write("<br><u>Question No: 4</u><br><br>");
+for(var i = 0;i<= 100;i++){
+    document.writeln("Hello😊<br>");
+}
+// Q5
+document.write("<br><u>Question No: 5</u><br><br>");
+for (var i = 3; i > 0;i--){
+    document.write("Hello World! <br>");
+}
+// Q6
+document.write("<br><u>Question No: 6</u><br><br>");
+var arry = [12,4,67,90,78,91,34,65];
+var numberOfElement = arry.length;
+document.writeln("Orginal Array in Numbers :"+arry+"<br>");
+document.writeln("Number Of Element Counts :"+numberOfElement);
+// Q7
+document.write("<br><br><u>Question No: 7</u><br><br>");
+var flag = [true,false,true,false,];
+document.write(flag);
+// Q8
+document.write("<br><br><u>Question No: 8 (Done Answer in Code File)</u><br><br>");
+var pets = ["cat","Dog","Lion","Rabbit","Hourse"];
+for(var i = 0;i > pets.length;i++){
+  document.writeln(pets);
+}
+// Q9
+document.write("<br><br><u>Question No: 9 (Done Answer Show in Alert)</u><br><br>");
+for (var i = 0; i < 10; i++) {
+    if (i === 1) {
+        alert(i);
+        break;
+    }
+}
+// Q10
+document.write("<br><br><u>Question No: 10 (Answer Show in Alert)</u><br><br>");
+var userName = ["Bilal","Mahnoor","Hafsa","Alyana","Rayan","Sarfraz"];
+var firstName =  prompt("Enter your First Name:");
+for(var i =0; i < userName.length;i++){
+    if(firstName === userName[i]){
+        alert("Welcome "+firstName+"!");
+    }
+    else if(i === userName.length -1){
+        alert("Please write a correct user name.");
+    }
+}
+// Q11
+document.write("<br><br><u>Question No: 11 (Answer Show in Alert)</u><br><br>");
+var list = ["Red", "Blue", "pink", "black"];
+var userInput = "Blue";
+var matchFound = false;
+for (var i = 0; i < list.length; i++) {
+  if (userInput === list[i]) {
+    alert("Match found");
+    matchFound = true;
+    break;
+  }
+}
+if (!matchFound) {
+  alert("No match found");
+}
+// Q12
+document.write("<br><br><u>Question No: 12</u><br><br>");
+var firstarry = ["a", "b", "c", "d", "e", "f"];
+var secondarry = [1, 2, 3, 4, 5, 6];
+for (var i = 0; i < firstarry.length; i++) {
+  for (var e = 0; e < secondarry.length; e++) {
+    document.writeln("<br>"+firstarry[i] + secondarry[e]);
+  }
+}
+
+// ==========================End==========================
+</script>
+</body>
+</html>
